@@ -1,3 +1,10 @@
+# .DS_STORE
+*/.DS_STORE
+**/.DS_STORE
+
+# npm package
+npm-package
+
 # Logs
 logs
 *.log
