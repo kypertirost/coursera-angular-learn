@@ -13,11 +13,12 @@
 <body>
    <div class="container" ng-controller='LunchCheckController'>
      <h1>Lunch Checker</h1>
+        Empty food will NOT count towards the total count <br>
          <div class="form-group">
              <input id="lunch-menu" type="text"
              placeholder="list comma separated dishes you usually have for lunch"
              class="form-control"
-             ng-module="food">
+             ng-model="listOfFood">
          </div>
          <div class="form-group">
              <button class="btn btn-default" ng-click="displayTooMuch();">Check If Too Much</button>
